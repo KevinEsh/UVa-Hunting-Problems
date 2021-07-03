@@ -1,0 +1,7 @@
+La cuestion de este algoritmo es localizar las coordendas de la celda
+ central (x,y) dado el tamaño del cuadro size, a traves de la formula 
+x = y = size/2+1. Luego la direccion de la espiral es arriba, izquierda,
+ abajo, derecha. En ese sentido, debemos de incrementar el contador de 
+la celda actual, el incremento en esa direccion, x, y. Es una busqueda 
+sencilla de las coordenadas (x',y') de la celda pos. El programa imprime 
+este par coordenado. 

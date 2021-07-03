@@ -1,0 +1,6 @@
+Se precalculan todas las solciones posibles al problema de la 8
+reinas. Ahora que se leen las posiciones de las casillas de cada 
+test case, se mide la distancia de la configuración dada con todas
+las soluciones. La distancia se define como: para dos tableros, es
+la suma de los valores absolutos de la resta entre las filas respectivas.
+Se busca la menor distancia entre todas las soluciones y se imprime el valor.

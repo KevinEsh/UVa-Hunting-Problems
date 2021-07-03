@@ -1,0 +1,3 @@
+Se guardan las k cuentas en un multiset y se aplica el descuento 
+a cada uno de las cuentas. Al final se suma todo y se imprime el
+resultado.

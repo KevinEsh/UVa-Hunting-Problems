@@ -1,0 +1,6 @@
+Se calcula el punto medio de cada par de vertices. Luego se consigue la ecuacion
+de la recta que pasa perpendicular a ambos segmentos y que tambien pasa por sus 
+punto medios. Con estas dos ecuaciones de la recta podemos calcular el punto medio 
+del poligono. Una vez calculado la distancia de centro a cualquiera de los vertices
+y el angulo formado entre cada vertice, podemos encontrar las coordenadas del bounding
+box que encierra al poligono con menor area. Se imprime esta area.

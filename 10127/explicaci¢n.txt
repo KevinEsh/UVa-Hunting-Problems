@@ -1,0 +1,13 @@
+Dos puntos principales:
+1. iterar a través de todos los números que solo contienen unos no a través de múltiplos de la N
+2. no calcule el número real, sino que utilice las identidades mod y mod para determinar si se cumple el valor.
+
+Básicamente, queremos verificar si unos% N es cero y tenemos unos = unos * 10 + 1 sucediendo cada iteración. Entonces, digamos que comenzamos con 1. 1% N es digamos uno. Ahora, la próxima vez que queremos calcular (unos * 10 + 1)% N. Bueno, esto es equivalente a
+((unos * 10)% N + 1% N)% N
+que es equivalente a
+(((unos)% N * 10% N)% N + 1% N)% N
+Sin embargo, conocemos los% N ya que lo calculamos, así que llamémoslo k.
+((k * 10% N)% N + 1% N)% N
+como k es menor que N, k = k% N. Ahora podemos revertir las identidades y obtenemos
+(k * 10 + 1)% N
+Así que solo necesitamos calcular esto cada iteración y verificar si es 0

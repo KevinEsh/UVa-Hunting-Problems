@@ -1,0 +1,10 @@
+Se crea la clase BigNum para el manejo de numero gigantescos. Cara calcular el
+numero de arboles binarios en data un conjunto de items, se hace uso de la sig
+función recursiva con los numero de Catalan:
+
+/*               (2N + 2) * (2N + 1)
+ *CATALAN(N+1) = ------------------- * CATALAN(N)
+ *                (N + 1) * (N + 2)
+
+Se precalculan los numeros de catalan para los primeros 30 con long long
+y para la siguientes 70 con el uso de BigNum

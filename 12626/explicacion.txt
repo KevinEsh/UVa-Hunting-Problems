@@ -1,0 +1,4 @@
+Este problema es sencillo. En cada caso se deben de contar las 
+apariciones de los caracteres "MARGRIT". Se cuenta el numero de 
+veces que estos caracteres completan la palabra "MARGARITA" y se 
+imprime el resultado.

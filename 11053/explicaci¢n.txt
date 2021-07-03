@@ -1,0 +1,3 @@
+Busqueda de los dos libros cuyo precio es igual
+al valor money cuya diferencia |a1-a2| sea la menor 
+de todas. La busqueda se realiza via bubble sort.

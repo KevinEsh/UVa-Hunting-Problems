@@ -1,0 +1,4 @@
+Creamos un array llamado calendar booleano de tamaño 10^9 (cantidad de minutos totales)
+donde el indice i representa si el minuto i esta ocupado. A medida que llemos las tares
+en el intervalo [a,b] vamos marcando estas casillas como ocupadas (true). Si una tarea
+se encuentra sobrelapando a otra entonces imprimimos "CONFLICT" en caso contrario "NO CONFLICT"

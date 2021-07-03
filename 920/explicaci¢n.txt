@@ -1,0 +1,7 @@
+Cuando se trata de calcular la proyeccion del sol sobre los segmentos de montaña, debemos notar
+que el sol siempre viene desde la derecha. Por lo cual, a la hora de realizar el calculo de la
+proyección, es conveniente ordenar los pares de puntos por la coordenada x en forma descendente.
+Comenzamos por el valor mas extremo a la derecha y, a medida que encontremos una altura mas grande
+que la ultima registrada 'height' calculamos la proyeccion del sol sobre ese segmento pero considerando
+la sombra de la montaña más grande que le precede y acumulamos el resultado en 'sunrise'. El calculo es
+pura algebra lineal. Imprimimos 'sunrise'.

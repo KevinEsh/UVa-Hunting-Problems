@@ -1,0 +1,9 @@
+Se trata de encontrar la subcadena con la mayor cantidad de repeticiones en la 
+cadena original. Para este tipo de problemas, podriamos usar alguna función hash
+sobre la cual podriamos ir contanto la catidad de veces que un determinado hast
+se repite. Pero no es necesario ya que el tamaño de la subcadena es fijo. Podemos
+utilizar la herramienta de map<string, int> para contabilizar las apariciones de 
+cierta subcadena. Primero leemos la cadena y el tamaño del password, luego con la
+función substr() extraemos todas las subadenas desde i=0 hasta i = size(cadena)- size(password)+1
+estos valores se meten a nuetro map y se incremente su valor asociado. Dentro del
+map se busca la cadena con la mayor aparición. Se imprime esta cadena. 

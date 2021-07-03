@@ -1,0 +1,6 @@
+Observe que el numero de esquinas es igual al cuadrado de la dimension. 
+Para resolver el problema haremos un recorrido binario por todas las esquinas del hipercubo y sumaremos el peso de sus vecinos.
+ Observe que el numero de vecinos de una esquina es exactamente igual a la dimension y para localizar estas esquinas vecinas en terminos binarios,
+ simplemente tomamos nuestra esquina en representación binaria (i) y 'apagamos' o 'prendemos' una de las dimensiones j del hipercubo
+ a traves del operador XOR (i ^ (1<<j) ) para todas las j= 0,1,2...dim-1. Al final, realizamos una busqueda binaria de las esquinas y 
+buscamos aquel par de esquinas vecinas (i,i^1<<j) con la mayor suma. Imprimimos la suma

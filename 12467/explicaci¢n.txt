@@ -1,0 +1,5 @@
+Leemos la cadena y creamos la cadena 'secret' que será la cadena inicial
+revertida. Esto es debido que el codigo secreto de Alicia son los primeros carecteres
+pero revertidos ¿Cuantos caracteres? esa es la cuestion. Con el algoritmo de Knuth-Morris-Pratt
+podemos encontrar esa cantidad al comparar el match entre la cadena de inicio y 'secret'.
+Al final se imprime la palabra secreta.

@@ -1,0 +1,6 @@
+Leemos la cadena asegurandonos de considerar el salto de linea. Comenzamos a 
+extraer las subcadenas en orden creciente, por ejemplo de "abcabcabc" tendriamos:
+"a" "ab" "abc"... esta subcadena la concatenamos de tal manera que tengan el mismo
+tamaño que la cadena original. Comparamos la cadena resultante con la original y si
+coinciden, entonces imprimimos el tamaño de la subcadena dado que habremos hallado
+el patron mas pequeño que se repite en la cadena. Repetimos esto para todos los casos. 

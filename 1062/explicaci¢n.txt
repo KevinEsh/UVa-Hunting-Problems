@@ -1,0 +1,11 @@
+Este problema puede ser resuelto de la siguiente manera: leemos la cadena
+que representa el orden de los navios en que llegaron a los contenedores.
+Como se desea encontrar la menor cantidad de contenedores de tal manera que
+los navios sean ordenado lexicograficamente, entonces podemos usar esta 
+propiedad de orden lexicográfico para lograr nuestro objetivo. Se crea un 
+vector<stack<char> > que representa a los contenedores. Luego cuando un navio 
+llega a los contenedores, busca entre todos los contenedores ya disponibles uno
+tal que el elemento .top() sea de un un orden lexicografico menor o igual a él
+mismo. Si lo encuentra, este navio pasa a ser el .top() y si no, se crea un nuevo
+contenedor con el mismo en .top(). Esto se repite para todos los navios que van 
+llegando. Al final se imprime el numero de contenedores.

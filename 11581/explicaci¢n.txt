@@ -1,0 +1,6 @@
+La transformación del grid g a traves de f(g) es trivial. Podemos crear 
+una función hash(g) que tome el grid g, aplane las filas y obtenga el entero
+asociado. Observe que la funcion kg(g) se 'detendra' si y solo si todos los 
+valores de g son 0, esto es hash(g)=0. Lo que ocurre es que la función f(g) 
+seguira transformando el grid g a g'!=g indefinidamente siempre que haya un 1 en g. 
+Este proceso se detiene unicamente cuando todos los valores de g son 0.

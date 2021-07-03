@@ -1,0 +1,9 @@
+Este programa se trata de realizar todas las posibles combinaciónes
+de 12 meses para un surplus s o un deficit d. Cada reporte se toma 
+con una venta de 5 meses (8 reportes en total en un año) y se sabe 
+que cada una de estas ventanas de 5 meses se reportó en la compañia
+una perdida (la suma de la ultimos 5 meses fue menor a 0). Nuestra 
+tarea es encontrar una combinación de surplus y deficits que tenga
+8 deficits pero que a la vez maximice la ganacia total de todo el año.
+Si esta ganancia es mayor a cero, se imprime el numero. Si no, se 
+imprime 'deficit'.

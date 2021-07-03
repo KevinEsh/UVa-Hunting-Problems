@@ -1,0 +1,19 @@
+Hay tres tipos de figuras: rectangulo, circulo y triangulo. Cada uno de estas tiene una manera particular 
+de comprobar si, dado un punto P, este se encuentra dentro de la figura. A continuación se explican los 
+metodos:
+
+Circulo:
+	Calcula la norma del vector que se forma del centro del circulo al punto P. Si la norma es menor al
+	radio del circulo, entonces el punto P esta dentro, de lo contrario no.
+Triangulo:
+	Tenemos las coordenadas de la esquina superior izquierda e inferior derecha (bounding box) asi que
+	solo es necesario comprobar si el punto se encuentra dentro de los margenes del rectangulo.
+Triangulo:
+	Podemos tratar al triangulo como un poligono convexo. Una estrategia para saber si el punto P esta
+	dentro del Triangulo es dividir el triangulo en 3 partes. Es decir, tres triangulos que que contengan
+	al punto P como uno de sus vertices. Calculamos el area de estos tres triangulos con el determinante y
+	sumamos. Si la suma de estas areas son aproximadamente igual al area del triangulo entero, es que el
+	punto estaba dentro del triangulo.
+
+El resto del codigo es solo leer puntos y comprobar para cada figura si esta dentro o no.
+	  

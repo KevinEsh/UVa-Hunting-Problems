@@ -1,0 +1,14 @@
+Se desea calcular la probabilidad para que el jugador i gane. La probalidad 
+de que nadie haya hagando en la vuelta k es (1-p)^{kN} donde N es el numero
+de jugadores. La probailidad de que ningun jugador de los que antecesn a i es
+(1-p)^{i-1}. Asi que la probabilidad de que i gane en la vuelta k es:
+
+	P(i|k) = (1-p)^{kN}(1-p)^{i-1}p
+
+Se contabilizan todas las vueltas. Esto es, una serie infinta de vuletas resultando
+en una serie geometrica para la probabilidad de que i gane el juego. Esta serie
+converge al valor:
+	
+	P(i) = sum_{k=0}^{inf} P(i|k) = (1-p)^{i-1}p / (1-(1-p)^N)
+
+Este valor se imprime.

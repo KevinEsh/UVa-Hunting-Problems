@@ -1,0 +1,9 @@
+Hay que darse cuenta que debemos de calcular la serie:
+ sumar:	1d   2d   3d   4d    5d   ... n*d
+ i=0	i=d i=3d i=6d i=10d i=15d ... i=i+nd
+
+para obtener la potencia n en donde se encontrara el indice 
+k (aquel que buscamos calcular). Una vez encontrado n, podemos 
+proceder al calculo de a_k(n) = c0+c1*n+c2*n^2+...+ci*n^i. Pero 
+podemos mejorar ese calculo haciendo uso del teorema de Horner.
+Imprimimos el resultado para cada caso.  

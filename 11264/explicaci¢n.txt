@@ -1,0 +1,11 @@
+Este problema se puede resolver en O (n) usando un enfoque greedy.
+Dados los tipos de monedas disponibles, el problema pide encontrar el
+ número máximo de "diferentes tipos" de monedas, podemos obtener en "uno" retirar. 
+También se nos ha dado el banco de algoritmos que sigue para retirar:
+
+retirar (X) {if (X == 0) return; Sea Y la moneda de mayor valor que no exceda de X. Dele al cliente la moneda de Y valuada. retirar (X-Y); }
+
+Los tipos de monedas en la entrada se clasifican en orden ascendente de valores, 
+por lo que no pierda tiempo en la clasificación. el número mínimo de monedas es 2,
+ excepto en el caso de que solo haya una moneda disponible. Tenemos que maximizar
+y calcular el número de "tipos diferentes" de monedas en un solo retiro.

@@ -1,0 +1,7 @@
+Recolectamos todos los vertices de una sola placa en 'Polygono' junto con su grueso 'thick'.
+Para calcular el volumen de cada una de las placas, es tan simple como calcular el determinante 
+del poligono a traves del producto cruz de dos vertices consecutivos (no se olvide de volver a 
+incluir al final el primero). Este valor se hace positivo, se divide por 2 y se multiplica por 
+'thick' para obtener el volumen de una placa. Todos los volumenes de un bloque se van sumando.
+Al final el numero de hoyos que se pueden cubrir es  volumen//manhole siendo 'manhole' el volumen
+del hoyo en cuestion.

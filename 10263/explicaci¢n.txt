@@ -1,0 +1,4 @@
+Creamos las clases Segment y Tensor para la representacion de segmento y vectores respectivamente. 
+Simplemente para cada segmento del riel, se calcula el vector dentro del segmento mas cercano a la
+posicion M. Esa distancia se mide con norm(closer - M) una resta vectorial. Se seleccion el vector
+closer con la menor distancia de todas. Se imprimen sus coordenadas (x,y)

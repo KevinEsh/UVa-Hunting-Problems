@@ -1,0 +1,4 @@
+Se calcula la envoltura convexa de la figura a la par que se conservan
+los puntos originales de la figura. Para ambas figuras se calcula el area
+con la formula del producto cruz y se obtiene el porcentaje de relacion
+entre la figura original y la envoltura convexa.

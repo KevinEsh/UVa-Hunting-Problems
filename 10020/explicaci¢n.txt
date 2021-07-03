@@ -1,0 +1,6 @@
+La clave de este problema es ordenar los arreglos de intervalos [ai,bi]
+Para cubrir el rango [0,M] miramos en el primer valor y preguntamos si el
+rango [ai,bi] cubre al rango [0,M]. Si efectivamente, guardamos el rango
+en un vector<interval> el rango a cubrir se actualiza a [bi,M] y se vuelve 
+a repetir este proceso hasta que se cubre el rango o nos quedamos sin intervalos.
+Imprimimos lo que nos piden. 

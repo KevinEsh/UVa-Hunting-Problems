@@ -1,0 +1,7 @@
+Te dan un par de palabras y tienes que averiguar de cuántas maneras 
+hay de llegar desde el primero hasta los segundos usando stack 
+solamente. Utilizamos programación recursiva. Comience con la primera
+ palabra y llame al método push en la primera letra. Luego, cada paso
+ (push y pop) se realiza solo, comprueba las condiciones finales 
+(no más letras, operación de pila inválida, ...) y llama a push y pop en
+el resto de la palabra.

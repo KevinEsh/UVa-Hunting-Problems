@@ -1,0 +1,14 @@
+Dada una cadena de dígitos S:
+
+interprete S como un número de base 10, calcule el número de 1 en su representación binaria
+interprete S como un número base 16, calcule el número de 1 en su representación binaria
+
+La forma más directa es implementar cuatro conversiones
+separadas como se describió anteriormente. El código se 
+puede simplificar observando que lo único que necesita 
+implementar es contar bits en la representación binaria 
+de una variable entera. Esto se puede hacer inteligentemente 
+usando operaciones bit a bit. Para el caso de base 16, 
+simplemente puede procesar los caracteres de S uno a la vez, 
+para cada uno de ellos contar el número de 1 de su representación
+ binaria y sumar los resultados.

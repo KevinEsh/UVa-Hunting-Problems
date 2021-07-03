@@ -1,0 +1,7 @@
+Se len los puntos de la figura a la par que, para un par de puntos, se calcula
+la ecuación de la recta. Esto es la ecuacion de la recta de cada cara de la 
+figura. Luego, con la distancia a reducir, la ecuación de la recta de cada cara
+se modifica de tal manera que se mueve paralelamente una distanca d de la original
+reduciendo el area de la fugura en todos los lados. Con estas ecuaciones se calculan
+las intersecciones de las rectas para obtener los vertices de la nueva figura y 
+finalmente se calcula su area.
